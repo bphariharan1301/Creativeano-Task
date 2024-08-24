@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.css-1x7skt0 {
+  background: #ffff !important;
+  color: #667085 !important;
+  font-weight: 300 !important;
+}
+.MuiAppBar-root{
+  background: #ffff !important;
+  color: #667085 !important;
+  font-weight: 300 !important;
+}
+
+.header-icon{
+  margin-left:98% !important;
+}
+.card_data{
+  display: flex !important;
+}
+
+.cardheading{
+  font-size: large !important;
+}
+
+.css-5lbw0b-MuiTypography-root {
+  font-size: 3rem !important;
+  margin-top: 2% !important;
+}
+
+.remaining {
+  font-size: 1.5rem !important;
+  font-weight: bold  !important;
+}
+
+.avilable {
+  font-size: 1.5rem !important; 
+  margin-right: 2rem !important;
+}
+.card-heading{
+  font-size: 1.25rem !important;
+}
+.Table1{
+  width: 100% !important;
+}
+.custom-arrow {
+  width: 40px;
+  height: 40px;
+  background-color: gray;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.custom-arrow i {
+  color: white;
+  font-size: 16px;
+}
+
+.custom-arrow:hover {
+  background-color: darkgray;
+}
+
+.next-arrow {
+  right: 10px;
+}
+
+.prev-arrow {
+  left: 10px;
+}
+.mb-4 {
+  width: 95% !important;
+}
+
+.calender-container {
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+
+.fc-toolbar {
+  justify-content: none !important;
+}
+
+.desktop-view {
+  display: flex; 
+}
+
+.mobile-view {
+  display: none; 
+}
+
+.primary-color {
+  color: #F04438 !important;
+}
+
+.MuiTabs-indicator {
+  background-color: #F04438 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .desktop-view {
+    display: none !important;
+  }
+
+  .mobile-view {
+    display: contents; 
+  }
+  
+}
